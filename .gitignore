@@ -1,0 +1,21 @@
+# Datos crudos: se descargan con los comandos de docs/METODOLOGIA_JERARQUIA_CIRCUITOS.md
+data/raw/
+
+# Exports de conversaciones y notas privadas
+Claude-*.md
+privado/
+CLAUDE.local.md
+
+# Secretos y configuración local
+.env
+*.env
+!example.env
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Sistema
+.DS_Store

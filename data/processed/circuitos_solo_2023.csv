@@ -1,0 +1,853 @@
+distrito,secc_2023,seccion_2023,circu_2023,electores_2023,motivo
+2,102,San Andrés de Giles,0864A,384,nuevo
+2,111,Tandil,0933A,9000,nuevo
+2,111,Tandil,0933B,9068,nuevo
+2,111,Tandil,0933C,6996,nuevo
+2,111,Tandil,0933D,4480,nuevo
+2,111,Tandil,0933E,5936,nuevo
+2,111,Tandil,0933F,8102,nuevo
+2,111,Tandil,0933G,5405,nuevo
+2,111,Tandil,0933H,5239,nuevo
+2,111,Tandil,0933I,11122,nuevo
+2,111,Tandil,0933J,5719,nuevo
+2,111,Tandil,0933K,14487,nuevo
+2,111,Tandil,0933L,25613,nuevo
+2,111,Tandil,0933M,149,nuevo
+2,122,Vicente López,0993A,12143,nuevo
+2,122,Vicente López,1000A,7499,nuevo
+2,122,Vicente López,1001A,10185,nuevo
+2,50,General Pueyrredón,0364A,22773,nuevo
+2,50,General Pueyrredón,0364B,15790,nuevo
+2,50,General Pueyrredón,0364C,16902,nuevo
+2,50,General Pueyrredón,0364D,39663,nuevo
+2,50,General Pueyrredón,0364E,29137,nuevo
+2,50,General Pueyrredón,0365A,20775,nuevo
+2,50,General Pueyrredón,0365B,9427,nuevo
+2,50,General Pueyrredón,0365C,21831,nuevo
+2,50,General Pueyrredón,0365D,17251,nuevo
+2,50,General Pueyrredón,0365E,16661,nuevo
+2,50,General Pueyrredón,0365F,16663,nuevo
+2,50,General Pueyrredón,0368A,2560,nuevo
+2,50,General Pueyrredón,0368B,6343,nuevo
+2,50,General Pueyrredón,0368C,73,nuevo
+2,50,General Pueyrredón,0370A,7223,nuevo
+2,50,General Pueyrredón,0370B,1128,nuevo
+2,50,General Pueyrredón,0370C,1367,nuevo
+2,50,General Pueyrredón,0370D,1575,nuevo
+2,50,General Pueyrredón,0370E,6815,nuevo
+2,50,General Pueyrredón,0370F,21675,nuevo
+2,50,General Pueyrredón,0370G,12692,nuevo
+2,70,Lomas de Zamora,0583A,39097,nuevo
+2,70,Lomas de Zamora,0583B,29262,nuevo
+2,70,Lomas de Zamora,0583C,22503,nuevo
+2,70,Lomas de Zamora,0583D,27835,nuevo
+2,70,Lomas de Zamora,0583E,19406,nuevo
+2,89,Pilar,0768A,19572,nuevo
+2,89,Pilar,0768B,19507,nuevo
+2,89,Pilar,0768C,23853,nuevo
+2,89,Pilar,0769A,5190,nuevo
+2,89,Pilar,0770B,4509,nuevo
+2,89,Pilar,0770C,5926,nuevo
+2,89,Pilar,0770D,19870,nuevo
+2,89,Pilar,0770E,5131,nuevo
+2,89,Pilar,0770F,14752,nuevo
+2,89,Pilar,0771A,5400,nuevo
+2,89,Pilar,0771B,8940,nuevo
+2,89,Pilar,0771C,26073,nuevo
+2,89,Pilar,0771D,27744,nuevo
+2,89,Pilar,0772A,16410,nuevo
+2,89,Pilar,0772B,3533,nuevo
+2,99,Saladillo,0846A,241,nuevo
+3,1,Capital,0003A,3747,nuevo
+3,13,Belén,0113A,53,nuevo
+3,13,Belén,0116A,43,nuevo
+3,13,Belén,0116B,118,nuevo
+7,1,Rawson,0009A,5039,nuevo
+7,1,Rawson,0018A,2652,nuevo
+7,1,Rawson,0021A,1439,nuevo
+7,14,Sarmiento,0083A,2704,nuevo
+7,14,Sarmiento,0084A,1383,nuevo
+7,2,Biedma,0028A,14272,nuevo
+10,10,Tilcara,0085B,42,nuevo
+10,13,Rinconada,0109A,106,nuevo
+10,16,Susques,0125C,113,nuevo
+12,4,Arauco,00011,288,nuevo
+12,4,Arauco,00012,1273,nuevo
+12,5,San Blas de los Sauces,00014,567,nuevo
+12,5,San Blas de los Sauces,00016,890,nuevo
+14,1,Capital,0007A,5868,nuevo
+14,10,Cainguás,0061B,2473,nuevo
+14,13,Guaraní,0068E,3076,nuevo
+14,16,Iguazú,0080A,26013,nuevo
+15,1,Confluencia,00001,11830,distrito_renumerado
+15,1,Confluencia,00008,7126,distrito_renumerado
+15,1,Confluencia,00011,13766,distrito_renumerado
+15,1,Confluencia,00015,762,distrito_renumerado
+15,1,Confluencia,00016,3636,distrito_renumerado
+15,1,Confluencia,00018,10478,distrito_renumerado
+15,1,Confluencia,00021,14253,distrito_renumerado
+15,1,Confluencia,00025,8178,distrito_renumerado
+15,1,Confluencia,00028,7194,distrito_renumerado
+15,1,Confluencia,00030,6381,distrito_renumerado
+15,1,Confluencia,00032,4329,distrito_renumerado
+15,1,Confluencia,00034,19759,distrito_renumerado
+15,1,Confluencia,00040,7276,distrito_renumerado
+15,1,Confluencia,00042,11935,distrito_renumerado
+15,1,Confluencia,00046,13938,distrito_renumerado
+15,1,Confluencia,00050,14314,distrito_renumerado
+15,1,Confluencia,00054,4043,distrito_renumerado
+15,1,Confluencia,00057,1721,distrito_renumerado
+15,1,Confluencia,00060,9876,distrito_renumerado
+15,1,Confluencia,00063,12524,distrito_renumerado
+15,1,Confluencia,00065,9477,distrito_renumerado
+15,1,Confluencia,00069,16119,distrito_renumerado
+15,1,Confluencia,00074,5584,distrito_renumerado
+15,1,Confluencia,00079,4340,distrito_renumerado
+15,1,Confluencia,00089,6583,distrito_renumerado
+15,1,Confluencia,00100,8027,distrito_renumerado
+15,1,Confluencia,00103,13600,distrito_renumerado
+15,1,Confluencia,00105,184,distrito_renumerado
+15,1,Confluencia,00108,8650,distrito_renumerado
+15,1,Confluencia,00110,4139,distrito_renumerado
+15,1,Confluencia,00115,11565,distrito_renumerado
+15,1,Confluencia,00120,49,distrito_renumerado
+15,1,Confluencia,00130,238,distrito_renumerado
+15,1,Confluencia,00140,1813,distrito_renumerado
+15,1,Confluencia,00150,9187,distrito_renumerado
+15,1,Confluencia,00155,300,distrito_renumerado
+15,1,Confluencia,00160,9965,distrito_renumerado
+15,1,Confluencia,00163,15309,distrito_renumerado
+15,1,Confluencia,00166,12017,distrito_renumerado
+15,1,Confluencia,00169,1671,distrito_renumerado
+15,1,Confluencia,00170,145,distrito_renumerado
+15,1,Confluencia,00180,7572,distrito_renumerado
+15,1,Confluencia,00183,11664,distrito_renumerado
+15,1,Confluencia,00185,886,distrito_renumerado
+15,1,Confluencia,00187,14758,distrito_renumerado
+15,1,Confluencia,00190,4250,distrito_renumerado
+15,10,Aluminé,01000,4936,distrito_renumerado
+15,10,Aluminé,01010,132,distrito_renumerado
+15,10,Aluminé,01020,137,distrito_renumerado
+15,10,Aluminé,01030,782,distrito_renumerado
+15,10,Aluminé,01040,47,distrito_renumerado
+15,10,Aluminé,01050,118,distrito_renumerado
+15,10,Aluminé,01060,1638,distrito_renumerado
+15,10,Aluminé,01070,426,distrito_renumerado
+15,10,Aluminé,01080,286,distrito_renumerado
+15,10,Aluminé,01090,64,distrito_renumerado
+15,11,Catán Lil,01100,900,distrito_renumerado
+15,11,Catán Lil,01120,135,distrito_renumerado
+15,11,Catán Lil,01130,71,distrito_renumerado
+15,11,Catán Lil,01140,38,distrito_renumerado
+15,11,Catán Lil,01150,148,distrito_renumerado
+15,11,Catán Lil,01160,64,distrito_renumerado
+15,11,Catán Lil,01170,94,distrito_renumerado
+15,11,Catán Lil,01180,160,distrito_renumerado
+15,12,Picún Leufú,01200,3562,distrito_renumerado
+15,12,Picún Leufú,01210,430,distrito_renumerado
+15,12,Picún Leufú,01220,366,distrito_renumerado
+15,13,Collón Curá,01300,3257,distrito_renumerado
+15,13,Collón Curá,01320,438,distrito_renumerado
+15,13,Collón Curá,01330,29,distrito_renumerado
+15,13,Collón Curá,01340,76,distrito_renumerado
+15,13,Collón Curá,01350,192,distrito_renumerado
+15,13,Collón Curá,01360,40,distrito_renumerado
+15,14,Huiliches,01400,13909,distrito_renumerado
+15,14,Huiliches,01410,146,distrito_renumerado
+15,14,Huiliches,01420,198,distrito_renumerado
+15,14,Huiliches,01430,458,distrito_renumerado
+15,14,Huiliches,01440,266,distrito_renumerado
+15,14,Huiliches,01450,428,distrito_renumerado
+15,15,Lácar,01500,14122,distrito_renumerado
+15,15,Lácar,01505,17452,distrito_renumerado
+15,15,Lácar,01510,539,distrito_renumerado
+15,15,Lácar,01520,244,distrito_renumerado
+15,15,Lácar,01530,25,distrito_renumerado
+15,15,Lácar,01540,223,distrito_renumerado
+15,15,Lácar,01550,237,distrito_renumerado
+15,15,Lácar,01560,61,distrito_renumerado
+15,15,Lácar,01570,335,distrito_renumerado
+15,15,Lácar,01580,78,distrito_renumerado
+15,16,Los Lagos,01600,12624,distrito_renumerado
+15,16,Los Lagos,01610,92,distrito_renumerado
+15,16,Los Lagos,01620,722,distrito_renumerado
+15,16,Los Lagos,01640,76,distrito_renumerado
+15,16,Los Lagos,01650,96,distrito_renumerado
+15,2,Zapala,00200,2633,distrito_renumerado
+15,2,Zapala,00205,11753,distrito_renumerado
+15,2,Zapala,00210,15901,distrito_renumerado
+15,2,Zapala,00215,66,distrito_renumerado
+15,2,Zapala,00220,2506,distrito_renumerado
+15,2,Zapala,00230,475,distrito_renumerado
+15,2,Zapala,00240,284,distrito_renumerado
+15,2,Zapala,00250,353,distrito_renumerado
+15,2,Zapala,00260,229,distrito_renumerado
+15,2,Zapala,00270,315,distrito_renumerado
+15,2,Zapala,00290,138,distrito_renumerado
+15,3,Añelo,00300,8486,distrito_renumerado
+15,3,Añelo,00310,6844,distrito_renumerado
+15,3,Añelo,00320,99,distrito_renumerado
+15,3,Añelo,00330,201,distrito_renumerado
+15,3,Añelo,00340,179,distrito_renumerado
+15,4,Pehuenches,00400,18677,distrito_renumerado
+15,4,Pehuenches,00410,116,distrito_renumerado
+15,4,Pehuenches,00420,69,distrito_renumerado
+15,4,Pehuenches,00430,80,distrito_renumerado
+15,4,Pehuenches,00440,2638,distrito_renumerado
+15,4,Pehuenches,00450,1149,distrito_renumerado
+15,5,Chos Malal,00500,11887,distrito_renumerado
+15,5,Chos Malal,00510,217,distrito_renumerado
+15,5,Chos Malal,00520,221,distrito_renumerado
+15,5,Chos Malal,00530,349,distrito_renumerado
+15,5,Chos Malal,00540,965,distrito_renumerado
+15,5,Chos Malal,00550,102,distrito_renumerado
+15,5,Chos Malal,00560,40,distrito_renumerado
+15,5,Chos Malal,00570,53,distrito_renumerado
+15,5,Chos Malal,00580,142,distrito_renumerado
+15,6,Minas,00600,2560,distrito_renumerado
+15,6,Minas,00620,369,distrito_renumerado
+15,6,Minas,00630,633,distrito_renumerado
+15,6,Minas,00640,411,distrito_renumerado
+15,6,Minas,00650,876,distrito_renumerado
+15,6,Minas,00660,62,distrito_renumerado
+15,6,Minas,00670,1386,distrito_renumerado
+15,6,Minas,00680,543,distrito_renumerado
+15,6,Minas,00690,590,distrito_renumerado
+15,7,Ñorquín,00700,1399,distrito_renumerado
+15,7,Ñorquín,00720,995,distrito_renumerado
+15,7,Ñorquín,00740,1052,distrito_renumerado
+15,7,Ñorquín,00750,788,distrito_renumerado
+15,7,Ñorquín,00760,147,distrito_renumerado
+15,7,Ñorquín,00770,52,distrito_renumerado
+15,7,Ñorquín,00780,50,distrito_renumerado
+15,7,Ñorquín,00785,62,distrito_renumerado
+15,7,Ñorquín,00790,342,distrito_renumerado
+15,8,Loncopué,00800,4769,distrito_renumerado
+15,8,Loncopué,00810,54,distrito_renumerado
+15,8,Loncopué,00820,60,distrito_renumerado
+15,8,Loncopué,00830,418,distrito_renumerado
+15,8,Loncopué,00840,382,distrito_renumerado
+15,8,Loncopué,00850,72,distrito_renumerado
+15,8,Loncopué,00860,172,distrito_renumerado
+15,9,Picunches,00900,5052,distrito_renumerado
+15,9,Picunches,00910,39,distrito_renumerado
+15,9,Picunches,00920,994,distrito_renumerado
+15,9,Picunches,00930,122,distrito_renumerado
+15,9,Picunches,00940,62,distrito_renumerado
+15,9,Picunches,00950,89,distrito_renumerado
+16,12,General Roca,06501,3372,nuevo
+16,12,General Roca,06502,3869,nuevo
+16,12,General Roca,06503,4063,nuevo
+16,12,General Roca,06504,3749,nuevo
+16,12,General Roca,06505,2691,nuevo
+16,12,General Roca,06506,3393,nuevo
+16,12,General Roca,06507,3036,nuevo
+16,12,General Roca,06508,3688,nuevo
+16,12,General Roca,06509,4678,nuevo
+16,12,General Roca,06510,3920,nuevo
+16,12,General Roca,06511,3934,nuevo
+16,12,General Roca,06512,3543,nuevo
+16,12,General Roca,06513,4763,nuevo
+16,12,General Roca,06514,4495,nuevo
+16,12,General Roca,06515,1475,nuevo
+16,12,General Roca,06516,1985,nuevo
+16,12,General Roca,06517,3774,nuevo
+16,12,General Roca,06518,2597,nuevo
+16,12,General Roca,06519,2128,nuevo
+16,12,General Roca,06520,415,nuevo
+16,12,General Roca,06521,1315,nuevo
+16,12,General Roca,06522,1086,nuevo
+16,12,General Roca,06523,1342,nuevo
+16,12,General Roca,06524,1244,nuevo
+17,17,Cafayate,0077B,826,nuevo
+17,8,General José de San Martín,0043G,3355,nuevo
+19,1,Juan Martín de Pueyrredón,0008A,380,nuevo
+19,1,Juan Martín de Pueyrredón,0008B,52,nuevo
+19,1,Juan Martín de Pueyrredón,0009A,218,nuevo
+19,1,Juan Martín de Pueyrredón,0009B,49,nuevo
+19,1,Juan Martín de Pueyrredón,1015A,919,nuevo
+19,1,Juan Martín de Pueyrredón,1015B,1027,nuevo
+19,1,Juan Martín de Pueyrredón,1021A,2853,nuevo
+19,1,Juan Martín de Pueyrredón,1021B,2017,nuevo
+19,1,Juan Martín de Pueyrredón,1021C,5862,nuevo
+19,1,Juan Martín de Pueyrredón,1022A,2373,nuevo
+19,1,Juan Martín de Pueyrredón,1022B,2436,nuevo
+19,1,Juan Martín de Pueyrredón,1022C,3208,nuevo
+19,1,Juan Martín de Pueyrredón,1022D,2975,nuevo
+19,1,Juan Martín de Pueyrredón,1022E,3143,nuevo
+19,1,Juan Martín de Pueyrredón,1022F,2362,nuevo
+20,1,Deseado,00300,16423,nuevo
+20,1,Deseado,00310,22947,nuevo
+20,1,Deseado,00320,7903,nuevo
+20,7,Güer Aike,01800,10042,nuevo
+20,7,Güer Aike,01810,29878,nuevo
+20,7,Güer Aike,01820,10875,nuevo
+20,7,Güer Aike,01830,16629,nuevo
+20,7,Güer Aike,01840,7082,nuevo
+20,7,Güer Aike,01850,14786,nuevo
+21,1,La Capital,00010,3933,distrito_renumerado
+21,1,La Capital,00020,3739,distrito_renumerado
+21,1,La Capital,00030,2021,distrito_renumerado
+21,1,La Capital,00040,3339,distrito_renumerado
+21,1,La Capital,00050,3201,distrito_renumerado
+21,1,La Capital,00060,3228,distrito_renumerado
+21,1,La Capital,00070,12650,distrito_renumerado
+21,1,La Capital,00080,7336,distrito_renumerado
+21,1,La Capital,00090,8258,distrito_renumerado
+21,1,La Capital,00100,9114,distrito_renumerado
+21,1,La Capital,00110,7610,distrito_renumerado
+21,1,La Capital,00115,9876,distrito_renumerado
+21,1,La Capital,00120,8417,distrito_renumerado
+21,1,La Capital,00130,16109,distrito_renumerado
+21,1,La Capital,00140,15259,distrito_renumerado
+21,1,La Capital,00142,9159,distrito_renumerado
+21,1,La Capital,00150,19125,distrito_renumerado
+21,1,La Capital,00152,6788,distrito_renumerado
+21,1,La Capital,00160,22951,distrito_renumerado
+21,1,La Capital,00161,27673,distrito_renumerado
+21,1,La Capital,00162,16430,distrito_renumerado
+21,1,La Capital,00165,14298,distrito_renumerado
+21,1,La Capital,00170,8896,distrito_renumerado
+21,1,La Capital,00171,11994,distrito_renumerado
+21,1,La Capital,00172,7114,distrito_renumerado
+21,1,La Capital,00175,30538,distrito_renumerado
+21,1,La Capital,00180,9036,distrito_renumerado
+21,1,La Capital,00185,7299,distrito_renumerado
+21,1,La Capital,00190,4498,distrito_renumerado
+21,1,La Capital,00192,7079,distrito_renumerado
+21,1,La Capital,00194,6607,distrito_renumerado
+21,1,La Capital,00196,2087,distrito_renumerado
+21,1,La Capital,00200,22683,distrito_renumerado
+21,1,La Capital,00202,25000,distrito_renumerado
+21,1,La Capital,00204,10930,distrito_renumerado
+21,1,La Capital,00220,11501,distrito_renumerado
+21,1,La Capital,00230,14155,distrito_renumerado
+21,1,La Capital,00240,6931,distrito_renumerado
+21,1,La Capital,00250,904,distrito_renumerado
+21,1,La Capital,00260,1408,distrito_renumerado
+21,1,La Capital,00270,11312,distrito_renumerado
+21,1,La Capital,00280,336,distrito_renumerado
+21,1,La Capital,00290,4337,distrito_renumerado
+21,1,La Capital,00300,2314,distrito_renumerado
+21,1,La Capital,00310,938,distrito_renumerado
+21,1,La Capital,00330,13806,distrito_renumerado
+21,1,La Capital,00370,123,distrito_renumerado
+21,1,La Capital,00390,1850,distrito_renumerado
+21,1,La Capital,00400,3805,distrito_renumerado
+21,10,Vera,02510,10204,distrito_renumerado
+21,10,Vera,02520,3740,distrito_renumerado
+21,10,Vera,02530,2238,distrito_renumerado
+21,10,Vera,02540,18665,distrito_renumerado
+21,10,Vera,02545,190,distrito_renumerado
+21,10,Vera,02550,84,distrito_renumerado
+21,10,Vera,02560,664,distrito_renumerado
+21,10,Vera,02570,1546,distrito_renumerado
+21,10,Vera,02580,153,distrito_renumerado
+21,10,Vera,02590,1189,distrito_renumerado
+21,10,Vera,02600,1906,distrito_renumerado
+21,10,Vera,02610,371,distrito_renumerado
+21,10,Vera,02620,495,distrito_renumerado
+21,10,Vera,02630,1078,distrito_renumerado
+21,10,Vera,02640,359,distrito_renumerado
+21,10,Vera,02670,61,distrito_renumerado
+21,10,Vera,02680,2476,distrito_renumerado
+21,10,Vera,02682,451,distrito_renumerado
+21,10,Vera,02684,180,distrito_renumerado
+21,10,Vera,02690,294,distrito_renumerado
+21,10,Vera,02700,63,distrito_renumerado
+21,10,Vera,02710,23,distrito_renumerado
+21,11,San Javier,02740,351,distrito_renumerado
+21,11,San Javier,02750,14058,distrito_renumerado
+21,11,San Javier,02755,784,distrito_renumerado
+21,11,San Javier,02758,692,distrito_renumerado
+21,11,San Javier,02760,3069,distrito_renumerado
+21,11,San Javier,02762,14,distrito_renumerado
+21,11,San Javier,02764,34,distrito_renumerado
+21,11,San Javier,02766,226,distrito_renumerado
+21,11,San Javier,02770,7598,distrito_renumerado
+21,11,San Javier,02772,35,distrito_renumerado
+21,11,San Javier,02774,47,distrito_renumerado
+21,11,San Javier,02780,15,distrito_renumerado
+21,11,San Javier,02790,580,distrito_renumerado
+21,11,San Javier,02800,407,distrito_renumerado
+21,11,San Javier,02810,20,distrito_renumerado
+21,12,9 de Julio,02830,209,distrito_renumerado
+21,12,9 de Julio,02840,679,distrito_renumerado
+21,12,9 de Julio,02850,15023,distrito_renumerado
+21,12,9 de Julio,02852,1006,distrito_renumerado
+21,12,9 de Julio,02854,29,distrito_renumerado
+21,12,9 de Julio,02860,32,distrito_renumerado
+21,12,9 de Julio,02870,665,distrito_renumerado
+21,12,9 de Julio,02890,1790,distrito_renumerado
+21,12,9 de Julio,02900,222,distrito_renumerado
+21,12,9 de Julio,02910,5315,distrito_renumerado
+21,12,9 de Julio,02920,701,distrito_renumerado
+21,12,9 de Julio,02930,1040,distrito_renumerado
+21,12,9 de Julio,02940,110,distrito_renumerado
+21,13,Rosario,03010,5429,distrito_renumerado
+21,13,Rosario,03015,7167,distrito_renumerado
+21,13,Rosario,03020,3989,distrito_renumerado
+21,13,Rosario,03025,5040,distrito_renumerado
+21,13,Rosario,03030,4928,distrito_renumerado
+21,13,Rosario,03035,4217,distrito_renumerado
+21,13,Rosario,03040,6165,distrito_renumerado
+21,13,Rosario,03045,4005,distrito_renumerado
+21,13,Rosario,03050,2422,distrito_renumerado
+21,13,Rosario,03055,2149,distrito_renumerado
+21,13,Rosario,03060,2140,distrito_renumerado
+21,13,Rosario,03065,4657,distrito_renumerado
+21,13,Rosario,03070,4807,distrito_renumerado
+21,13,Rosario,03075,4196,distrito_renumerado
+21,13,Rosario,03080,3503,distrito_renumerado
+21,13,Rosario,03085,6218,distrito_renumerado
+21,13,Rosario,03090,5372,distrito_renumerado
+21,13,Rosario,03095,5448,distrito_renumerado
+21,13,Rosario,03100,3882,distrito_renumerado
+21,13,Rosario,03105,5419,distrito_renumerado
+21,13,Rosario,03110,4315,distrito_renumerado
+21,13,Rosario,03115,3598,distrito_renumerado
+21,13,Rosario,03120,8509,distrito_renumerado
+21,13,Rosario,03125,3992,distrito_renumerado
+21,13,Rosario,03130,3700,distrito_renumerado
+21,13,Rosario,03135,5061,distrito_renumerado
+21,13,Rosario,03140,5758,distrito_renumerado
+21,13,Rosario,03145,6743,distrito_renumerado
+21,13,Rosario,03150,14556,distrito_renumerado
+21,13,Rosario,03155,7687,distrito_renumerado
+21,13,Rosario,03160,5891,distrito_renumerado
+21,13,Rosario,03165,5089,distrito_renumerado
+21,13,Rosario,03170,9160,distrito_renumerado
+21,13,Rosario,03175,11758,distrito_renumerado
+21,13,Rosario,03180,3274,distrito_renumerado
+21,13,Rosario,03185,4829,distrito_renumerado
+21,13,Rosario,03190,3362,distrito_renumerado
+21,13,Rosario,03195,5094,distrito_renumerado
+21,13,Rosario,03200,5756,distrito_renumerado
+21,13,Rosario,03205,8324,distrito_renumerado
+21,13,Rosario,03210,34971,distrito_renumerado
+21,13,Rosario,03220,19948,distrito_renumerado
+21,13,Rosario,03230,16173,distrito_renumerado
+21,13,Rosario,03240,15837,distrito_renumerado
+21,13,Rosario,03250,23370,distrito_renumerado
+21,13,Rosario,03260,70407,distrito_renumerado
+21,13,Rosario,03270,22833,distrito_renumerado
+21,13,Rosario,03280,53479,distrito_renumerado
+21,13,Rosario,03290,29323,distrito_renumerado
+21,13,Rosario,03300,54872,distrito_renumerado
+21,13,Rosario,03310,27968,distrito_renumerado
+21,13,Rosario,03320,6279,distrito_renumerado
+21,13,Rosario,03330,260,distrito_renumerado
+21,13,Rosario,03340,30447,distrito_renumerado
+21,13,Rosario,03350,41329,distrito_renumerado
+21,13,Rosario,03360,19603,distrito_renumerado
+21,13,Rosario,03370,10943,distrito_renumerado
+21,13,Rosario,03380,14576,distrito_renumerado
+21,13,Rosario,03390,53741,distrito_renumerado
+21,13,Rosario,03400,38754,distrito_renumerado
+21,13,Rosario,03410,4797,distrito_renumerado
+21,13,Rosario,03415,531,distrito_renumerado
+21,13,Rosario,03420,292,distrito_renumerado
+21,13,Rosario,03430,6438,distrito_renumerado
+21,13,Rosario,03435,2033,distrito_renumerado
+21,13,Rosario,03450,20189,distrito_renumerado
+21,13,Rosario,03455,4823,distrito_renumerado
+21,13,Rosario,03500,777,distrito_renumerado
+21,13,Rosario,03505,854,distrito_renumerado
+21,13,Rosario,03510,2274,distrito_renumerado
+21,13,Rosario,03515,349,distrito_renumerado
+21,13,Rosario,03520,30794,distrito_renumerado
+21,13,Rosario,03550,38535,distrito_renumerado
+21,13,Rosario,03555,5341,distrito_renumerado
+21,13,Rosario,03560,18583,distrito_renumerado
+21,13,Rosario,03565,9456,distrito_renumerado
+21,13,Rosario,03570,3527,distrito_renumerado
+21,13,Rosario,03580,1437,distrito_renumerado
+21,13,Rosario,03585,942,distrito_renumerado
+21,13,Rosario,03600,29800,distrito_renumerado
+21,13,Rosario,03602,25447,distrito_renumerado
+21,13,Rosario,03604,20261,distrito_renumerado
+21,13,Rosario,03610,6152,distrito_renumerado
+21,13,Rosario,03615,4427,distrito_renumerado
+21,13,Rosario,03620,10344,distrito_renumerado
+21,13,Rosario,03625,5408,distrito_renumerado
+21,14,Caseros,03640,6262,distrito_renumerado
+21,14,Caseros,03650,2813,distrito_renumerado
+21,14,Caseros,03660,1799,distrito_renumerado
+21,14,Caseros,03670,4698,distrito_renumerado
+21,14,Caseros,03680,31459,distrito_renumerado
+21,14,Caseros,03690,1008,distrito_renumerado
+21,14,Caseros,03700,6491,distrito_renumerado
+21,14,Caseros,03710,4937,distrito_renumerado
+21,14,Caseros,03720,1467,distrito_renumerado
+21,14,Caseros,03730,1692,distrito_renumerado
+21,14,Caseros,03740,2167,distrito_renumerado
+21,14,Caseros,03750,5857,distrito_renumerado
+21,14,Caseros,03755,108,distrito_renumerado
+21,14,Caseros,03760,1580,distrito_renumerado
+21,15,Constitución,03770,6849,distrito_renumerado
+21,15,Constitución,03772,3013,distrito_renumerado
+21,15,Constitución,03774,893,distrito_renumerado
+21,15,Constitución,03780,382,distrito_renumerado
+21,15,Constitución,03782,1313,distrito_renumerado
+21,15,Constitución,03784,358,distrito_renumerado
+21,15,Constitución,03786,939,distrito_renumerado
+21,15,Constitución,03788,552,distrito_renumerado
+21,15,Constitución,03790,1283,distrito_renumerado
+21,15,Constitución,03792,557,distrito_renumerado
+21,15,Constitución,03794,652,distrito_renumerado
+21,15,Constitución,03800,3010,distrito_renumerado
+21,15,Constitución,03810,1662,distrito_renumerado
+21,15,Constitución,03820,2228,distrito_renumerado
+21,15,Constitución,03830,2921,distrito_renumerado
+21,15,Constitución,03840,41147,distrito_renumerado
+21,15,Constitución,03845,6168,distrito_renumerado
+21,15,Constitución,03846,2396,distrito_renumerado
+21,15,Constitución,03848,483,distrito_renumerado
+21,16,General López,03850,1173,distrito_renumerado
+21,16,General López,03852,276,distrito_renumerado
+21,16,General López,03854,420,distrito_renumerado
+21,16,General López,03860,1548,distrito_renumerado
+21,16,General López,03862,719,distrito_renumerado
+21,16,General López,03864,3624,distrito_renumerado
+21,16,General López,03870,1670,distrito_renumerado
+21,16,General López,03880,1775,distrito_renumerado
+21,16,General López,03885,250,distrito_renumerado
+21,16,General López,03890,5158,distrito_renumerado
+21,16,General López,03900,17483,distrito_renumerado
+21,16,General López,03904,1998,distrito_renumerado
+21,16,General López,03906,734,distrito_renumerado
+21,16,General López,03908,419,distrito_renumerado
+21,16,General López,03910,434,distrito_renumerado
+21,16,General López,03915,1487,distrito_renumerado
+21,16,General López,03920,1772,distrito_renumerado
+21,16,General López,03930,2051,distrito_renumerado
+21,16,General López,03935,878,distrito_renumerado
+21,16,General López,03940,16656,distrito_renumerado
+21,16,General López,03950,922,distrito_renumerado
+21,16,General López,03955,3250,distrito_renumerado
+21,16,General López,03960,4317,distrito_renumerado
+21,16,General López,03965,642,distrito_renumerado
+21,16,General López,03970,3850,distrito_renumerado
+21,16,General López,03975,3697,distrito_renumerado
+21,16,General López,03980,5115,distrito_renumerado
+21,16,General López,03990,21099,distrito_renumerado
+21,16,General López,03992,18993,distrito_renumerado
+21,16,General López,03994,16003,distrito_renumerado
+21,16,General López,03996,11223,distrito_renumerado
+21,16,General López,04000,8291,distrito_renumerado
+21,16,General López,04010,5053,distrito_renumerado
+21,16,General López,04015,4003,distrito_renumerado
+21,17,Belgrano,04020,10595,distrito_renumerado
+21,17,Belgrano,04030,11411,distrito_renumerado
+21,17,Belgrano,04040,11742,distrito_renumerado
+21,17,Belgrano,04045,1272,distrito_renumerado
+21,17,Belgrano,04050,2436,distrito_renumerado
+21,17,Belgrano,04060,1972,distrito_renumerado
+21,18,Iriondo,04070,1169,distrito_renumerado
+21,18,Iriondo,04080,26871,distrito_renumerado
+21,18,Iriondo,04090,1110,distrito_renumerado
+21,18,Iriondo,04100,4912,distrito_renumerado
+21,18,Iriondo,04110,2027,distrito_renumerado
+21,18,Iriondo,04115,417,distrito_renumerado
+21,18,Iriondo,04120,4246,distrito_renumerado
+21,18,Iriondo,04130,9460,distrito_renumerado
+21,18,Iriondo,04132,698,distrito_renumerado
+21,18,Iriondo,04134,46,distrito_renumerado
+21,18,Iriondo,04140,3378,distrito_renumerado
+21,18,Iriondo,04145,2817,distrito_renumerado
+21,18,Iriondo,04150,2693,distrito_renumerado
+21,19,San Lorenzo,04160,14644,distrito_renumerado
+21,19,San Lorenzo,04170,22,distrito_renumerado
+21,19,San Lorenzo,04172,2277,distrito_renumerado
+21,19,San Lorenzo,04174,2065,distrito_renumerado
+21,19,San Lorenzo,04180,5406,distrito_renumerado
+21,19,San Lorenzo,04185,658,distrito_renumerado
+21,19,San Lorenzo,04190,1194,distrito_renumerado
+21,19,San Lorenzo,04200,14569,distrito_renumerado
+21,19,San Lorenzo,04205,25533,distrito_renumerado
+21,19,San Lorenzo,04210,17157,distrito_renumerado
+21,19,San Lorenzo,04220,3029,distrito_renumerado
+21,19,San Lorenzo,04224,817,distrito_renumerado
+21,19,San Lorenzo,04230,23222,distrito_renumerado
+21,19,San Lorenzo,04240,2432,distrito_renumerado
+21,19,San Lorenzo,04245,3787,distrito_renumerado
+21,19,San Lorenzo,04250,40548,distrito_renumerado
+21,2,Las Colonias,00410,337,distrito_renumerado
+21,2,Las Colonias,00420,778,distrito_renumerado
+21,2,Las Colonias,00430,2037,distrito_renumerado
+21,2,Las Colonias,00440,10148,distrito_renumerado
+21,2,Las Colonias,00450,951,distrito_renumerado
+21,2,Las Colonias,00460,2571,distrito_renumerado
+21,2,Las Colonias,00470,360,distrito_renumerado
+21,2,Las Colonias,00480,1401,distrito_renumerado
+21,2,Las Colonias,00490,910,distrito_renumerado
+21,2,Las Colonias,00500,155,distrito_renumerado
+21,2,Las Colonias,00510,789,distrito_renumerado
+21,2,Las Colonias,00520,5973,distrito_renumerado
+21,2,Las Colonias,00530,5395,distrito_renumerado
+21,2,Las Colonias,00540,476,distrito_renumerado
+21,2,Las Colonias,00550,35438,distrito_renumerado
+21,2,Las Colonias,00557,119,distrito_renumerado
+21,2,Las Colonias,00559,58,distrito_renumerado
+21,2,Las Colonias,00560,4472,distrito_renumerado
+21,2,Las Colonias,00570,4434,distrito_renumerado
+21,2,Las Colonias,00580,589,distrito_renumerado
+21,2,Las Colonias,00590,363,distrito_renumerado
+21,2,Las Colonias,00600,1979,distrito_renumerado
+21,2,Las Colonias,00610,811,distrito_renumerado
+21,2,Las Colonias,00620,1452,distrito_renumerado
+21,2,Las Colonias,00630,2223,distrito_renumerado
+21,2,Las Colonias,00640,1426,distrito_renumerado
+21,2,Las Colonias,00650,640,distrito_renumerado
+21,2,Las Colonias,00660,721,distrito_renumerado
+21,2,Las Colonias,00670,1078,distrito_renumerado
+21,2,Las Colonias,00680,1499,distrito_renumerado
+21,2,Las Colonias,00690,272,distrito_renumerado
+21,2,Las Colonias,00700,73,distrito_renumerado
+21,2,Las Colonias,00710,302,distrito_renumerado
+21,2,Las Colonias,00720,54,distrito_renumerado
+21,2,Las Colonias,00730,230,distrito_renumerado
+21,2,Las Colonias,00740,113,distrito_renumerado
+21,2,Las Colonias,00750,288,distrito_renumerado
+21,2,Las Colonias,00760,110,distrito_renumerado
+21,2,Las Colonias,00770,37,distrito_renumerado
+21,3,San Jerónimo,00790,15409,distrito_renumerado
+21,3,San Jerónimo,00800,436,distrito_renumerado
+21,3,San Jerónimo,00810,865,distrito_renumerado
+21,3,San Jerónimo,00820,1372,distrito_renumerado
+21,3,San Jerónimo,00830,17615,distrito_renumerado
+21,3,San Jerónimo,00840,1615,distrito_renumerado
+21,3,San Jerónimo,00850,837,distrito_renumerado
+21,3,San Jerónimo,00855,120,distrito_renumerado
+21,3,San Jerónimo,00860,1392,distrito_renumerado
+21,3,San Jerónimo,00870,4528,distrito_renumerado
+21,3,San Jerónimo,00880,2707,distrito_renumerado
+21,3,San Jerónimo,00890,8308,distrito_renumerado
+21,3,San Jerónimo,00910,1546,distrito_renumerado
+21,3,San Jerónimo,00920,1918,distrito_renumerado
+21,3,San Jerónimo,00930,5047,distrito_renumerado
+21,3,San Jerónimo,00940,2673,distrito_renumerado
+21,3,San Jerónimo,00950,757,distrito_renumerado
+21,3,San Jerónimo,00960,1704,distrito_renumerado
+21,3,San Jerónimo,00965,800,distrito_renumerado
+21,3,San Jerónimo,00970,156,distrito_renumerado
+21,3,San Jerónimo,00980,127,distrito_renumerado
+21,3,San Jerónimo,01000,101,distrito_renumerado
+21,3,San Jerónimo,01010,177,distrito_renumerado
+21,4,Garay,01040,262,distrito_renumerado
+21,4,Garay,01050,690,distrito_renumerado
+21,4,Garay,01060,7706,distrito_renumerado
+21,4,Garay,01064,38,distrito_renumerado
+21,4,Garay,01066,66,distrito_renumerado
+21,4,Garay,01070,3703,distrito_renumerado
+21,4,Garay,01080,5352,distrito_renumerado
+21,4,Garay,01085,849,distrito_renumerado
+21,4,Garay,01090,727,distrito_renumerado
+21,4,Garay,01100,516,distrito_renumerado
+21,5,Castellanos,01110,201,distrito_renumerado
+21,5,Castellanos,01120,161,distrito_renumerado
+21,5,Castellanos,01130,179,distrito_renumerado
+21,5,Castellanos,01140,160,distrito_renumerado
+21,5,Castellanos,01150,1326,distrito_renumerado
+21,5,Castellanos,01160,297,distrito_renumerado
+21,5,Castellanos,01170,4657,distrito_renumerado
+21,5,Castellanos,01180,19381,distrito_renumerado
+21,5,Castellanos,01190,719,distrito_renumerado
+21,5,Castellanos,01200,1705,distrito_renumerado
+21,5,Castellanos,01202,52,distrito_renumerado
+21,5,Castellanos,01204,46,distrito_renumerado
+21,5,Castellanos,01210,1766,distrito_renumerado
+21,5,Castellanos,01220,401,distrito_renumerado
+21,5,Castellanos,01230,2618,distrito_renumerado
+21,5,Castellanos,01240,1625,distrito_renumerado
+21,5,Castellanos,01250,1303,distrito_renumerado
+21,5,Castellanos,01260,299,distrito_renumerado
+21,5,Castellanos,01270,737,distrito_renumerado
+21,5,Castellanos,01280,30901,distrito_renumerado
+21,5,Castellanos,01282,15431,distrito_renumerado
+21,5,Castellanos,01284,18366,distrito_renumerado
+21,5,Castellanos,01286,17297,distrito_renumerado
+21,5,Castellanos,01290,254,distrito_renumerado
+21,5,Castellanos,01300,1814,distrito_renumerado
+21,5,Castellanos,01310,639,distrito_renumerado
+21,5,Castellanos,01320,1294,distrito_renumerado
+21,5,Castellanos,01330,145,distrito_renumerado
+21,5,Castellanos,01340,733,distrito_renumerado
+21,5,Castellanos,01342,872,distrito_renumerado
+21,5,Castellanos,01345,7239,distrito_renumerado
+21,5,Castellanos,01350,184,distrito_renumerado
+21,5,Castellanos,01360,1285,distrito_renumerado
+21,5,Castellanos,01365,49,distrito_renumerado
+21,5,Castellanos,01370,1191,distrito_renumerado
+21,5,Castellanos,01380,1479,distrito_renumerado
+21,5,Castellanos,01390,512,distrito_renumerado
+21,5,Castellanos,01400,4211,distrito_renumerado
+21,5,Castellanos,01410,313,distrito_renumerado
+21,5,Castellanos,01420,5374,distrito_renumerado
+21,5,Castellanos,01430,1418,distrito_renumerado
+21,5,Castellanos,01440,789,distrito_renumerado
+21,5,Castellanos,01450,308,distrito_renumerado
+21,5,Castellanos,01460,350,distrito_renumerado
+21,5,Castellanos,01470,172,distrito_renumerado
+21,5,Castellanos,01480,113,distrito_renumerado
+21,5,Castellanos,01490,145,distrito_renumerado
+21,5,Castellanos,01500,94,distrito_renumerado
+21,5,Castellanos,01510,292,distrito_renumerado
+21,5,Castellanos,01520,54,distrito_renumerado
+21,6,San Martín,01530,513,distrito_renumerado
+21,6,San Martín,01540,297,distrito_renumerado
+21,6,San Martín,01550,4890,distrito_renumerado
+21,6,San Martín,01560,2445,distrito_renumerado
+21,6,San Martín,01570,1054,distrito_renumerado
+21,6,San Martín,01580,16426,distrito_renumerado
+21,6,San Martín,01590,1161,distrito_renumerado
+21,6,San Martín,01600,4801,distrito_renumerado
+21,6,San Martín,01610,4518,distrito_renumerado
+21,6,San Martín,01620,652,distrito_renumerado
+21,6,San Martín,01630,205,distrito_renumerado
+21,6,San Martín,01640,2839,distrito_renumerado
+21,6,San Martín,01650,10515,distrito_renumerado
+21,6,San Martín,01660,2773,distrito_renumerado
+21,6,San Martín,01670,1124,distrito_renumerado
+21,6,San Martín,01680,152,distrito_renumerado
+21,6,San Martín,01690,799,distrito_renumerado
+21,7,San Cristóbal,01740,148,distrito_renumerado
+21,7,San Cristóbal,01750,197,distrito_renumerado
+21,7,San Cristóbal,01760,359,distrito_renumerado
+21,7,San Cristóbal,01770,349,distrito_renumerado
+21,7,San Cristóbal,01780,14692,distrito_renumerado
+21,7,San Cristóbal,01790,2721,distrito_renumerado
+21,7,San Cristóbal,01800,1033,distrito_renumerado
+21,7,San Cristóbal,01810,717,distrito_renumerado
+21,7,San Cristóbal,01815,129,distrito_renumerado
+21,7,San Cristóbal,01820,156,distrito_renumerado
+21,7,San Cristóbal,01830,2893,distrito_renumerado
+21,7,San Cristóbal,01840,1832,distrito_renumerado
+21,7,San Cristóbal,01850,13362,distrito_renumerado
+21,7,San Cristóbal,01860,226,distrito_renumerado
+21,7,San Cristóbal,01870,836,distrito_renumerado
+21,7,San Cristóbal,01880,7623,distrito_renumerado
+21,7,San Cristóbal,01890,417,distrito_renumerado
+21,7,San Cristóbal,01910,5718,distrito_renumerado
+21,7,San Cristóbal,01920,261,distrito_renumerado
+21,7,San Cristóbal,01930,2044,distrito_renumerado
+21,7,San Cristóbal,01940,429,distrito_renumerado
+21,7,San Cristóbal,01950,1079,distrito_renumerado
+21,7,San Cristóbal,01960,679,distrito_renumerado
+21,7,San Cristóbal,01964,22,distrito_renumerado
+21,7,San Cristóbal,01970,388,distrito_renumerado
+21,7,San Cristóbal,01980,180,distrito_renumerado
+21,7,San Cristóbal,01990,120,distrito_renumerado
+21,7,San Cristóbal,02000,553,distrito_renumerado
+21,7,San Cristóbal,02010,343,distrito_renumerado
+21,7,San Cristóbal,02020,300,distrito_renumerado
+21,7,San Cristóbal,02030,321,distrito_renumerado
+21,7,San Cristóbal,02040,121,distrito_renumerado
+21,7,San Cristóbal,02050,311,distrito_renumerado
+21,8,San Justo,02070,421,distrito_renumerado
+21,8,San Justo,02080,2027,distrito_renumerado
+21,8,San Justo,02084,78,distrito_renumerado
+21,8,San Justo,02086,189,distrito_renumerado
+21,8,San Justo,02090,370,distrito_renumerado
+21,8,San Justo,02100,20744,distrito_renumerado
+21,8,San Justo,02105,104,distrito_renumerado
+21,8,San Justo,02110,651,distrito_renumerado
+21,8,San Justo,02120,1556,distrito_renumerado
+21,8,San Justo,02125,459,distrito_renumerado
+21,8,San Justo,02130,5185,distrito_renumerado
+21,8,San Justo,02140,686,distrito_renumerado
+21,8,San Justo,02145,638,distrito_renumerado
+21,8,San Justo,02150,1063,distrito_renumerado
+21,8,San Justo,02155,112,distrito_renumerado
+21,8,San Justo,02160,1989,distrito_renumerado
+21,8,San Justo,02165,55,distrito_renumerado
+21,8,San Justo,02170,351,distrito_renumerado
+21,8,San Justo,02180,572,distrito_renumerado
+21,8,San Justo,02190,43,distrito_renumerado
+21,9,General Obligado,02200,385,distrito_renumerado
+21,9,General Obligado,02210,7251,distrito_renumerado
+21,9,General Obligado,02215,45,distrito_renumerado
+21,9,General Obligado,02220,678,distrito_renumerado
+21,9,General Obligado,02230,484,distrito_renumerado
+21,9,General Obligado,02235,90,distrito_renumerado
+21,9,General Obligado,02240,20292,distrito_renumerado
+21,9,General Obligado,02242,7775,distrito_renumerado
+21,9,General Obligado,02244,11104,distrito_renumerado
+21,9,General Obligado,02246,23604,distrito_renumerado
+21,9,General Obligado,02248,1017,distrito_renumerado
+21,9,General Obligado,02249,191,distrito_renumerado
+21,9,General Obligado,02250,23129,distrito_renumerado
+21,9,General Obligado,02255,142,distrito_renumerado
+21,9,General Obligado,02260,799,distrito_renumerado
+21,9,General Obligado,02270,2120,distrito_renumerado
+21,9,General Obligado,02272,668,distrito_renumerado
+21,9,General Obligado,02274,83,distrito_renumerado
+21,9,General Obligado,02280,1345,distrito_renumerado
+21,9,General Obligado,02290,941,distrito_renumerado
+21,9,General Obligado,02300,2819,distrito_renumerado
+21,9,General Obligado,02305,31,distrito_renumerado
+21,9,General Obligado,02310,394,distrito_renumerado
+21,9,General Obligado,02320,16165,distrito_renumerado
+21,9,General Obligado,02325,88,distrito_renumerado
+21,9,General Obligado,02330,2664,distrito_renumerado
+21,9,General Obligado,02340,2337,distrito_renumerado
+21,9,General Obligado,02350,10775,distrito_renumerado
+21,9,General Obligado,02370,4154,distrito_renumerado
+21,9,General Obligado,02380,1002,distrito_renumerado
+21,9,General Obligado,02390,5009,distrito_renumerado
+21,9,General Obligado,02395,678,distrito_renumerado
+21,9,General Obligado,02400,227,distrito_renumerado
+21,9,General Obligado,02410,45,distrito_renumerado
+21,9,General Obligado,02420,1141,distrito_renumerado
+21,9,General Obligado,02440,138,distrito_renumerado
+21,9,General Obligado,02444,520,distrito_renumerado
+21,9,General Obligado,02446,535,distrito_renumerado
+21,9,General Obligado,02450,1068,distrito_renumerado
+21,9,General Obligado,02460,1060,distrito_renumerado
+21,9,General Obligado,02465,159,distrito_renumerado
+21,9,General Obligado,02470,726,distrito_renumerado
+21,9,General Obligado,02480,175,distrito_renumerado
+21,9,General Obligado,02490,125,distrito_renumerado
+23,12,Cruz Alta,0142A,14782,nuevo
+23,12,Cruz Alta,0142B,10900,nuevo
+23,15,Yerba Buena,0216B,5767,nuevo
+23,15,Yerba Buena,0216C,4082,nuevo
+23,16,Tafí Viejo,0219A,581,nuevo
+23,16,Tafí Viejo,0228B,5848,nuevo
+23,16,Tafí Viejo,0228C,209,nuevo
+23,16,Tafí Viejo,0228D,5423,nuevo
+24,1,Ushuaia,00101,5505,distrito_renumerado
+24,1,Ushuaia,00102,4913,distrito_renumerado
+24,1,Ushuaia,00103,6573,distrito_renumerado
+24,1,Ushuaia,00104,7901,distrito_renumerado
+24,1,Ushuaia,00105,7100,distrito_renumerado
+24,1,Ushuaia,00106,5616,distrito_renumerado
+24,1,Ushuaia,00107,4002,distrito_renumerado
+24,1,Ushuaia,00108,3339,distrito_renumerado
+24,1,Ushuaia,00109,2707,distrito_renumerado
+24,1,Ushuaia,00110,2720,distrito_renumerado
+24,1,Ushuaia,00111,6459,distrito_renumerado
+24,1,Ushuaia,00112,4184,distrito_renumerado
+24,1,Ushuaia,00113,4150,distrito_renumerado
+24,1,Ushuaia,00114,271,distrito_renumerado
+24,2,Río Grande,00201,1785,distrito_renumerado
+24,2,Río Grande,00203,7364,distrito_renumerado
+24,2,Río Grande,00204,2328,distrito_renumerado
+24,2,Río Grande,00205,1848,distrito_renumerado
+24,2,Río Grande,00206,7552,distrito_renumerado
+24,2,Río Grande,00207,4205,distrito_renumerado
+24,2,Río Grande,00208,2275,distrito_renumerado
+24,2,Río Grande,00209,4239,distrito_renumerado
+24,2,Río Grande,00210,4115,distrito_renumerado
+24,2,Río Grande,00211,11453,distrito_renumerado
+24,2,Río Grande,00212,2985,distrito_renumerado
+24,2,Río Grande,00214,9847,distrito_renumerado
+24,2,Río Grande,00215,2206,distrito_renumerado
+24,2,Río Grande,00216,2022,distrito_renumerado
+24,2,Río Grande,00217,1442,distrito_renumerado
+24,2,Río Grande,00218,2304,distrito_renumerado
+24,2,Río Grande,00219,7529,distrito_renumerado
+24,2,Río Grande,00220,914,distrito_renumerado
+24,2,Río Grande,00227,50,distrito_renumerado
+24,3,Antártida Argentina,00303,285,distrito_renumerado
+24,5,Tolhuin,00501,5780,distrito_renumerado
