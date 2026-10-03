@@ -20,3 +20,10 @@ Proyecto en desarrollo; piloto en General Levalle, Córdoba.
 - Padrón electoral 2017, Cámara Nacional Electoral.
 - Resultados provisorios elecciones generales 2023, Dirección Nacional
   Electoral.
+
+## Licencia
+
+- **Código** (`scripts/` y el código de la aplicación): [GNU AGPL-3.0](LICENSE).
+- **Documentación y datos** (`docs/`, `data/processed/`):
+  [CC BY 4.0](LICENSE-DOCS). Los datos derivan de fuentes públicas de la
+  CNE y la DINE; citar este repositorio y las fuentes originales.
