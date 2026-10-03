@@ -27,6 +27,6 @@ datos territoriales en `docs/METODOLOGIA_JERARQUIA_CIRCUITOS.md`.
 
 ## Estado
 
-Ver la sección "Pendientes" de `docs/ARQUITECTURA.md`. Próximo paso:
-plantilla de CloudFormation para la infraestructura base y luego la
-instalación de Pol.is en la EC2.
+Ver la sección "Pendientes" de `docs/ARQUITECTURA.md`. Infraestructura base
+en `infra/base.yaml` (instrucciones en `infra/README.md`). Próximo paso:
+desplegar el stack `democratizar-base` e instalar Pol.is en la EC2.

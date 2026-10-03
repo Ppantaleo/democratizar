@@ -1,0 +1,307 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >-
+  democratiz.ar - infraestructura base del piloto: VPC sin NAT, EC2 Ubuntu
+  (acceso solo por SSM), RDS PostgreSQL privada, bucket S3 y rol de instancia
+  con permisos para S3, DynamoDB (Delphi) y el secreto de la base.
+
+Parameters:
+  InstanceType:
+    Type: String
+    Default: t3a.medium
+    AllowedValues: [t3a.medium, t3a.large, t3.medium, t3.large, m7i-flex.large]
+  UbuntuAmi:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/canonical/ubuntu/server/24.04/stable/current/amd64/hvm/ebs-gp3/ami-id
+  RootVolumeGiB:
+    Type: Number
+    Default: 30
+    MinValue: 20
+  DBInstanceClass:
+    Type: String
+    Default: db.t4g.micro
+    AllowedValues: [db.t4g.micro, db.t4g.small, db.t4g.medium]
+  DBAllocatedStorageGiB:
+    Type: Number
+    Default: 20
+    MinValue: 20
+  DBEngineVersion:
+    Type: String
+    Default: "17"
+    Description: Versión mayor de PostgreSQL (Pol.is usa postgres:17).
+  DBBackupRetentionDays:
+    Type: Number
+    Default: 7
+    MinValue: 1
+    MaxValue: 35
+
+Resources:
+  # ---------------------------------------------------------------- Red
+  Vpc:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.20.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags: [{ Key: Name, Value: democratizar-vpc }]
+
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags: [{ Key: Name, Value: democratizar-igw }]
+
+  InternetGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref Vpc
+      InternetGatewayId: !Ref InternetGateway
+
+  # La EC2 vive en la subred pública; no hay NAT Gateway (~32 USD/mes).
+  PublicSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: 10.20.1.0/24
+      AvailabilityZone: !Select [0, !GetAZs ""]
+      MapPublicIpOnLaunch: false
+      Tags: [{ Key: Name, Value: democratizar-publica-a }]
+
+  # RDS exige un grupo de subredes en al menos dos zonas.
+  PrivateSubnetA:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: 10.20.11.0/24
+      AvailabilityZone: !Select [0, !GetAZs ""]
+      Tags: [{ Key: Name, Value: democratizar-privada-a }]
+
+  PrivateSubnetB:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref Vpc
+      CidrBlock: 10.20.12.0/24
+      AvailabilityZone: !Select [1, !GetAZs ""]
+      Tags: [{ Key: Name, Value: democratizar-privada-b }]
+
+  PublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref Vpc
+      Tags: [{ Key: Name, Value: democratizar-rt-publica }]
+
+  PublicDefaultRoute:
+    Type: AWS::EC2::Route
+    DependsOn: InternetGatewayAttachment
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+
+  PublicSubnetRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      SubnetId: !Ref PublicSubnet
+      RouteTableId: !Ref PublicRouteTable
+
+  # Las subredes privadas usan la tabla principal de la VPC: solo tráfico local.
+
+  # S3 por endpoint de gateway: gratis y sin salir a internet.
+  S3GatewayEndpoint:
+    Type: AWS::EC2::VPCEndpoint
+    Properties:
+      VpcId: !Ref Vpc
+      ServiceName: !Sub com.amazonaws.${AWS::Region}.s3
+      VpcEndpointType: Gateway
+      RouteTableIds: [!Ref PublicRouteTable]
+
+  # ------------------------------------------------------- Security groups
+  WebSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: democratizar - HTTP/HTTPS publico; sin SSH (acceso por SSM)
+      VpcId: !Ref Vpc
+      SecurityGroupIngress:
+        # Pendiente: restringir a los rangos de IP de Cloudflare.
+        - { IpProtocol: tcp, FromPort: 80, ToPort: 80, CidrIp: 0.0.0.0/0, Description: HTTP }
+        - { IpProtocol: tcp, FromPort: 443, ToPort: 443, CidrIp: 0.0.0.0/0, Description: HTTPS }
+      Tags: [{ Key: Name, Value: democratizar-web }]
+
+  DatabaseSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: democratizar - PostgreSQL solo desde la EC2
+      VpcId: !Ref Vpc
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 5432
+          ToPort: 5432
+          SourceSecurityGroupId: !Ref WebSecurityGroup
+          Description: PostgreSQL desde la EC2
+      Tags: [{ Key: Name, Value: democratizar-db }]
+
+  # ------------------------------------------------------------- Base de datos
+  DBSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: democratizar - subredes privadas
+      SubnetIds: [!Ref PrivateSubnetA, !Ref PrivateSubnetB]
+
+  Database:
+    Type: AWS::RDS::DBInstance
+    DeletionPolicy: Snapshot
+    UpdateReplacePolicy: Snapshot
+    Properties:
+      Engine: postgres
+      EngineVersion: !Ref DBEngineVersion
+      DBInstanceClass: !Ref DBInstanceClass
+      AllocatedStorage: !Ref DBAllocatedStorageGiB
+      StorageType: gp3
+      StorageEncrypted: true
+      MultiAZ: false
+      PubliclyAccessible: false
+      DBSubnetGroupName: !Ref DBSubnetGroup
+      VPCSecurityGroups: [!Ref DatabaseSecurityGroup]
+      DBName: polis
+      MasterUsername: polisadmin
+      # La contraseña la genera y guarda RDS en Secrets Manager (~0,40 USD/mes).
+      ManageMasterUserPassword: true
+      BackupRetentionPeriod: !Ref DBBackupRetentionDays
+      AutoMinorVersionUpgrade: true
+      CopyTagsToSnapshot: true
+      EnablePerformanceInsights: false
+      MonitoringInterval: 0
+
+  # ------------------------------------------------------------------- S3
+  Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      BucketName: !Sub democratizar-${AWS::AccountId}-${AWS::Region}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault: { SSEAlgorithm: AES256 }
+      OwnershipControls:
+        Rules: [{ ObjectOwnership: BucketOwnerEnforced }]
+      LifecycleConfiguration:
+        Rules:
+          - Id: dumps-90-dias
+            Status: Enabled
+            Prefix: dumps/
+            ExpirationInDays: 90
+          - Id: limpiar-cargas-incompletas
+            Status: Enabled
+            AbortIncompleteMultipartUpload: { DaysAfterInitiation: 7 }
+
+  # ------------------------------------------------------- Rol de la instancia
+  InstanceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: ec2.amazonaws.com }
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+      Policies:
+        - PolicyName: democratizar-s3
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [s3:ListBucket, s3:GetBucketLocation]
+                Resource: !GetAtt Bucket.Arn
+              - Effect: Allow
+                Action: [s3:GetObject, s3:PutObject, s3:DeleteObject]
+                Resource: !Sub ${Bucket.Arn}/*
+        - PolicyName: democratizar-dynamodb
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              # Delphi crea sus propias tablas. Acotado a esta región y cuenta;
+              # pendiente: restringir al prefijo de tablas que use Delphi.
+              - Effect: Allow
+                Action: dynamodb:*
+                Resource:
+                  - !Sub arn:aws:dynamodb:${AWS::Region}:${AWS::AccountId}:table/*
+              - Effect: Allow
+                Action: dynamodb:ListTables
+                Resource: "*"
+        - PolicyName: democratizar-secreto-db
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: secretsmanager:GetSecretValue
+                Resource: !GetAtt Database.MasterUserSecret.SecretArn
+
+  InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles: [!Ref InstanceRole]
+
+  # ------------------------------------------------------------------- EC2
+  LaunchTemplate:
+    Type: AWS::EC2::LaunchTemplate
+    Properties:
+      LaunchTemplateData:
+        ImageId: !Ref UbuntuAmi
+        InstanceType: !Ref InstanceType
+        IamInstanceProfile: { Arn: !GetAtt InstanceProfile.Arn }
+        # Sin créditos extra: si se agotan, la CPU se frena en vez de cobrar.
+        CreditSpecification: { CpuCredits: standard }
+        MetadataOptions:
+          HttpTokens: required
+          # 2 saltos: los contenedores Docker necesitan llegar al rol (IMDSv2).
+          HttpPutResponseHopLimit: 2
+        BlockDeviceMappings:
+          - DeviceName: /dev/sda1
+            Ebs:
+              VolumeSize: !Ref RootVolumeGiB
+              VolumeType: gp3
+              Encrypted: true
+              DeleteOnTermination: true
+        TagSpecifications:
+          - ResourceType: volume
+            Tags: [{ Key: Name, Value: democratizar-app-raiz }]
+
+  AppInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      LaunchTemplate:
+        LaunchTemplateId: !Ref LaunchTemplate
+        Version: !GetAtt LaunchTemplate.LatestVersionNumber
+      SubnetId: !Ref PublicSubnet
+      SecurityGroupIds: [!Ref WebSecurityGroup]
+      Tags: [{ Key: Name, Value: democratizar-app }]
+
+  # IP fija para el DNS en Cloudflare.
+  ElasticIp:
+    Type: AWS::EC2::EIP
+    DependsOn: InternetGatewayAttachment
+    Properties:
+      Domain: vpc
+      InstanceId: !Ref AppInstance
+      Tags: [{ Key: Name, Value: democratizar-app }]
+
+Outputs:
+  InstanceId:
+    Value: !Ref AppInstance
+  PublicIp:
+    Description: Para los registros A de democratiz.ar y polis.democratiz.ar en Cloudflare
+    Value: !Ref ElasticIp
+  SsmSession:
+    Value: !Sub aws ssm start-session --target ${AppInstance} --region ${AWS::Region}
+  DatabaseEndpoint:
+    Value: !GetAtt Database.Endpoint.Address
+  DatabaseSecretArn:
+    Description: Usuario y contraseña de la RDS (Secrets Manager)
+    Value: !GetAtt Database.MasterUserSecret.SecretArn
+  BucketName:
+    Value: !Ref Bucket
